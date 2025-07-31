@@ -1,0 +1,48 @@
+/* Reset des marges par défaut du body si nécessaire */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Hook {
+  background-color: #e6e3e3;
+  color: white;
+  padding: 1rem 2rem;
+  width: 100%;
+  position: fixed; /* Ou sticky selon vos préférences */
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.Hook nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; /* Centre le contenu */
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+
