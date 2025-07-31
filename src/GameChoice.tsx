@@ -5,33 +5,33 @@ const GameChoice = () => {
  return(
     <>
         <div id="type">
-            <h3>Bonjour</h3>
+            <h3>Choix du jeu</h3>
             <p>Sélectionner parmi 4 jeux interactifs pour engager vos utilisateurs et créer une expérience unique</p>
         </div>
-        
+
     <div id="jeux">
         <section className="nav-links">
           <article>
             <button id="firstgame">
-                Code PIN
+                <img src="../src/assets/wheel.jpg" alt="" />
             </button>
           </article>
 
           <article>
             <button id="secondGame">
-              QR Code
+                <img src="../src/assets/mystery.png" alt="" />
             </button>
           </article>
 
           <article>
             <button id="thirdGame">
-              Sauvergarder
+              <img src="../src/assets/slot.png" alt="" />
             </button>
           </article>
 
           <article>
                 <button id="fourtGame">
-                    hello
+                   <img src="../src/assets/card.png" alt="" />
                 </button>
           </article>
         </section>
