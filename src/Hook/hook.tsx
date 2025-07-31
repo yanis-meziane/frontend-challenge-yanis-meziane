@@ -1,5 +1,4 @@
 import "../CSS/Hook.css"
-import Button from "@mui/material/Button"
 
 const Hook = () => {
   return (
@@ -10,25 +9,23 @@ const Hook = () => {
         </div>
 
         <section className="nav-links">
-
           <article>
-            <Button color="blue">
-                 <a href="#home">Accueil</a>
-            </Button>
+            <button className="firstButton">
+                Code PIN
+            </button>
           </article>
 
-        <article>
-            <Button>
-                <a href="#about">À propos</a>
-            </Button>
-        </article>
-
           <article>
-            <Button>
-                <a href="#contact">Contact</a>
-            </Button>
+            <button className="secondButton">
+              QR Code
+            </button>
           </article>
 
+          <article>
+            <button className="saveButton">
+              Sauvergarder
+            </button>
+          </article>
         </section>
       </nav>
     </header>

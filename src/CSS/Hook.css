@@ -1,4 +1,3 @@
-/* Reset des marges par défaut du body si nécessaire */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@
   color: white;
   padding: 1rem 2rem;
   width: 100%;
-  position: fixed; /* Ou sticky selon vos préférences */
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
@@ -22,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto; /* Centre le contenu */
+  margin: 0 auto;
 }
 
 .logo h1 {
@@ -36,13 +35,66 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 2rem;
+  gap: 1rem;
 }
 
-.nav-links a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
+.btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  font-family: inherit;
 }
 
+/* Bouton du code pin  */
+.firstButton {
+  background-color: #6f42c1;
+  color: white;
+  border-left: 4px solid #5a2d91;
+}
 
+.firstButton:hover {
+  transform: translateY(-2px);
+}
+
+/* Bouton du QR code */
+.secondButton{
+  background-color: #fd7e14;
+  color: white;
+  border-left: 4px solid #e8680e;
+}
+
+.secondButton:hover {
+  transform: translateY(-2px);
+}
+
+/* Bouton de sauvergarde */ 
+
+.saveButton{
+  background-color: #0d6efd;
+  color: white;
+  border-left: 4px solid #0b5ed7;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.saveButton:hover {
+  transform: translateY(-2px);
+}
+
+/* Animation au focus */
+.btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Animation au clic */
+.btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
