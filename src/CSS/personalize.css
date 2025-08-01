@@ -48,10 +48,26 @@
     height: 5vh;
 }
 
+#sousElement{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;  
+}
+
+#buttonApercue{
+    border: none;
+    background-color: white;
+    width: 20%;
+}
+#buttonApercue:hover{
+    background-color: rgb(189, 189, 191);
+    border-radius: 2rem;
+}
 #element2{
     display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
 }

@@ -62,7 +62,10 @@ const Personalize = () => {
                 </article>
 
                 <article id="element2">
-                    <h3>Importez vos couleurs</h3>
+                    <div id="sousElement">
+                        <h3>Importez vos couleurs</h3>
+                        <input type="button" value="Voir l'aperçu" id="buttonApercue" />
+                    </div>
 
                     <p style= {{color}}>Aperçu du texte en couleur</p>
 
