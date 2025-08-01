@@ -3,15 +3,14 @@
     padding: 0;
 }
 
-#type{
+.HeaderPart{
     display: flex;
-    flex-direction: column; /* <-- très important */
-    align-items: flex-start; /* pour que le texte commence à gauche */
+    flex-direction: column; 
+    align-items: flex-start;
     padding: 1rem 2rem;
     width: 100%;
-    height: auto;
     left: 0;
-    position: fixed;
+    position: static;
     justify-content: flex-start;
     box-shadow: inset 5px 0px 4px -3px rgba(25, 89, 215, 0.8);
 }
@@ -27,12 +26,33 @@ h3{
     display: flex;
     height: 5rem;
     width: 100%;
-    margin-top: 10rem; 
+    margin-top: 2rem; 
+} 
+
+.game {
+    border-radius: 8px;
+    border: 5px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease
 }
 
+.game > img {
+    display: flex;
+    width: 100%;
+    height: 18em;
+    justify-content: space-around;
+}
+
+.game:hover{
+    transform: scale(1.05);
+}
 
 .nav-links {
  display: flex;
  flex-direction: row;
  height: 10rem;
+ justify-content: center;
 }

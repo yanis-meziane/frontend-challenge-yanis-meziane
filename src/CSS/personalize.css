@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#personnalizePart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    width: 100%;
+    height:auto;
+    position: relative; 
+    top: 10rem;
+    justify-content: flex-start;
+    box-shadow: inset 5px 0px 4px -3px rgba(25, 89, 215, 0.8);
+    margin-top: 6rem; /* Pour compenser la navbar fixe */
+}
+
+#personnalizePart h3 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#personnalizePart p {
+    margin-bottom: 0.5rem;
+}
