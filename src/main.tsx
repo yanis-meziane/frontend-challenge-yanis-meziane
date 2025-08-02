@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import Hook from './Hook/hook.tsx'
 import Alert from './alert.tsx'
+import Organisation from './organisation/organisation.tsx'
 import GameChoice from './GameChoice.tsx'
 import Personalize from './personalizeGame/personalize.tsx'
 
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Hook />
     <Alert />
+    <Organisation />
     <App />
     <GameChoice />
     <Personalize />
