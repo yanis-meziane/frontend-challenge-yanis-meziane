@@ -9,7 +9,7 @@ const Organisation = () => {
             </div>
 
             <article id="secondPart">
-                <input type="button" value="Ajouter une action +" id="organisationButton"/>
+                <input type="button" value="Ajouter une action +" id="organisationButton" onClick={() => alert("Action pas encore disponible")}/>
             </article>
 
             <table border={1} cellPadding={8} id="table">

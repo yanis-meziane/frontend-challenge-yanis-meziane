@@ -5,6 +5,10 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+header.Hook{
+  height: 5rem;
+  align-items: center;
+}
 .Hook {
   background-color: #e6e3e3;
   color: white;
@@ -30,7 +34,9 @@
   font-size: 1.5rem;
   color: black;
 }
-
+nav{
+  height: 10rem;
+}
 .nav-links {
   display: flex;
   list-style: none;

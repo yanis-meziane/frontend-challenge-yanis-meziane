@@ -17,7 +17,7 @@ const Alert = () => {
                 </div>
             </article>
             <article id="secondPart">
-                <input type="button" value="Configurer mon code" id="configurationButton"/>
+                <input type="button" value="Configurer mon code" id="configurationButton" onClick={() => alert("Redirection pour définir le Mot de passe")}/>
             </article>
         </section>
         </>

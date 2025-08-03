@@ -22,7 +22,7 @@ const Hook = () => {
           </article>
 
           <article>
-            <button className="saveButton">
+            <button className="saveButton" onClick={() => alert("Sauvegarde pris en compte")}>
               Sauvergarder
             </button>
           </article>

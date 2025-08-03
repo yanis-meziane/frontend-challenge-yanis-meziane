@@ -25,6 +25,10 @@
     width: 100%;
 }
 
-#table > tr {
+a {
     margin: 2rem;
+}
+
+a:hover{
+    color: rgb(142, 210, 210);
 }
