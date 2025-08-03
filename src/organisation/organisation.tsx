@@ -9,10 +9,10 @@ const Organisation = () => {
             </div>
 
             <article id="secondPart">
-                <input type="button" value="Ajouter une action +" id="configurationButton"/>
+                <input type="button" value="Ajouter une action +" id="organisationButton"/>
             </article>
 
-            <table border={1} cellPadding={8} style={{width: "100%", borderCollapse:"collapse"}}>
+            <table border={1} cellPadding={8} id="table">
                 <thead>
                     <tr>
                         <th>Ordre des actions</th>

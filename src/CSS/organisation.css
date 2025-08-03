@@ -1,0 +1,30 @@
+#organisationButton{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: none;
+    background-color: rgb(32, 80, 255);
+    color: white;
+    justify-content: flex-end;
+    border-radius: 0.2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+#organisationButton:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+#table{
+    width: "100%";
+    border-radius: 0.2rem;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+#table > tr {
+    margin: 2rem;
+}
