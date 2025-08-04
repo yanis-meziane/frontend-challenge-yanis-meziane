@@ -1,3 +1,16 @@
+.HeaderOrganisation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    width: 100%;
+    height:auto;
+    position: relative; 
+    justify-content: flex-start;
+    box-shadow: inset 5px 0px 4px -3px rgba(25, 89, 215, 0.8);
+    margin-top: 6rem; 
+}
+
 #organisationButton{
     display: flex;
     align-items: center;
@@ -16,6 +29,9 @@
     color: black;
 }
 
+#warning{
+    margin: 1rem;
+}
 #table{
     width: "100%";
     border-radius: 0.2rem;

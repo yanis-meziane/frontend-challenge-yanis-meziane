@@ -2,6 +2,7 @@ import "./CSS/alert.css";
 import LockIcon from '@mui/icons-material/Lock';
 
 
+
 const Alert = () => {
     return(
         <>

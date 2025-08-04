@@ -13,10 +13,9 @@
     width: 100%;
     height:auto;
     position: relative; 
-    top: 10rem;
     justify-content: flex-start;
     box-shadow: inset 5px 0px 4px -3px rgba(25, 89, 215, 0.8);
-    margin-top: 6rem; /* Pour compenser la navbar fixe */
+    margin-top: 6rem; 
 }
 
 #personnalizePart h3 {
@@ -35,7 +34,7 @@
    padding: 2vh;
    justify-content: space-around; 
    position: relative; 
-   top: 15rem;
+   top: 5rem;
    border: 1px solid black;
    border-radius: 2rem;
    height: 10rem;
@@ -58,11 +57,11 @@
 #buttonApercue{
     border: none;
     background-color: white;
-    width: 20%;
+    width: 25%;
 }
 #buttonApercue:hover{
     background-color: rgb(189, 189, 191);
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 #element2{
     display: flex;

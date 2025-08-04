@@ -1,16 +1,27 @@
 import "../CSS/organisation.css"
+import Alert from "@mui/material/Alert"
+import { useState } from "react"
 
 const Organisation = () => {
+
+    const [showAlert, setShowAlert] = useState(false);
+    const alertClick = () => {
+        setShowAlert(true);
+        setTimeout(() => {setShowAlert(false)},4000)
+    }
+
     return (
         <>
-            <div className="HeaderPart">
+            <div className="HeaderOrganisation">
                 <h3>Organisez vos actions</h3>
                 <p>Définissez l'ordre et les actions à réaliser par vos clients pour maximiser l'engagement</p>
             </div>
 
             <article id="secondPart">
-                <input type="button" value="Ajouter une action +" id="organisationButton" onClick={() => alert("Action pas encore disponible")}/>
+                <input type="button" value="Ajouter une action +" id="organisationButton" onClick={() => alertClick()}/>
             </article>
+
+            {showAlert && <Alert severity="warning" id="warning">Action pas encore possible</Alert> }
 
             <table border={1} cellPadding={8} id="table">
                 <thead>

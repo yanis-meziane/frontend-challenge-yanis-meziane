@@ -6,9 +6,9 @@
 }
 
 header.Hook{
-  height: 5rem;
-  align-items: center;
+  height: 7rem;
 }
+
 .Hook {
   background-color: #e6e3e3;
   color: white;
@@ -25,8 +25,12 @@ header.Hook{
 .Hook nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
+  height: 100%;
+}
+
+.logo{ 
+  text-align: left;
 }
 
 .logo h1 {
@@ -37,6 +41,7 @@ header.Hook{
 nav{
   height: 10rem;
 }
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -104,4 +109,8 @@ nav{
 .btn:active {
   transform: translateY(1px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#iconAlert{
+  margin: 1rem;
 }
