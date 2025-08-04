@@ -1,4 +1,4 @@
-import "../src/CSS/GameChoice.css"
+import "../CSS/GameChoice.css"
 import { useState } from "react";
 
 const GameChoice = () => {

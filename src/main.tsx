@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import Hook from './Hook/hook.tsx'
-import Alert from './alert.tsx'
+import Alert from './Alert/alert.tsx'
 import Organisation from './organisation/organisation.tsx'
-import GameChoice from './GameChoice.tsx'
+import GameChoice from './GameChoice/GameChoice.tsx'
 import Personalize from './personalizeGame/personalize.tsx'
 
 createRoot(document.getElementById('root')!).render(

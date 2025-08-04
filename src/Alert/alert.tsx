@@ -1,4 +1,4 @@
-import "./CSS/alert.css";
+import "../CSS/alert.css";
 import LockIcon from '@mui/icons-material/Lock';
 
 
